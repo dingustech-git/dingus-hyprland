@@ -18,3 +18,4 @@ Copy `kitty.conf` to that folder, delete the original
 
 # Rofi
 Copy `config.rasi` to `~/.config.kitty`, you may need to create a `kitty` folder in `~/.config`
+Start Rofi with `rofi -show drun`, I'd reccomend adding a button or keybind to start it (It's enabled by default in my hyprland dotfiles)
