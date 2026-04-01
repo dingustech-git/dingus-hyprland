@@ -1,7 +1,7 @@
 # dingus-hyprland
 dingus's official Hyprland config (WIP)
 
-#Apps
+# Apps
 Firefox (Web Browser)
 Kitty (Terminal)
 Nautilus (File Manager)
