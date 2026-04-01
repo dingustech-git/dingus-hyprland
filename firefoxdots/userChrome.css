@@ -1,0 +1,16 @@
+/* Transparent tab bar */
+#TabsToolbar {
+  background-color: transparent !important;
+}
+
+/* Transparent navigation bar (address bar + buttons) */
+#nav-bar {
+  background-color: transparent !important;
+}
+
+/* Apply blur to the whole top UI */
+#navigator-toolbox {
+  background: rgba(20, 20, 20, 0.5) !important;
+  backdrop-filter: blur(25px) !important;
+  border: none !important;
+}
