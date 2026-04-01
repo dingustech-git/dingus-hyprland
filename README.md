@@ -44,6 +44,6 @@ SUPER + 0 = Exit to DM\
 ALT + [Any number 1-0] = Switch workspace (ALT + 4 will take you to workspace 4 for example)\
 
 ## Configuration
-You'll need Hyprpaper, waybar, swaync, hyprcursor and hyprlock
+You'll need Hyprpaper, waybar, swaync, hyprcursor and hyprlock\
 Make sure you also have all the apps listed above
 copy hyprland.conf to `~/.config/hypr`
