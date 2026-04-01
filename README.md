@@ -1,7 +1,7 @@
 # dingus-hyprland
 dingus's official Hyprland config (WIP)
 Please note that these configs are made for Linux in mind, I cannot help with porting to Windows or macOS, that's for you to do
-For wallpapers, place it in your home directory 
+For wallpapers, place it in your home directory as wp.png
 
 # Apps
 Firefox (Web Browser)\
@@ -25,20 +25,20 @@ Start Rofi with `rofi -show drun`, I'd reccomend adding a button or keybind to s
 Now we're at the actual Hyprland config
 This is pretty much the raw file that I've built myself, some things might not work :(
 ## Keybinds
-SUPER + Q = Terminal
-SUPER + W = File Manager
-SUPER + E = Web Browser
-SUPER + R = GNOME Software
-PRINT = Screenshot of screen
-SUPER + PRINT = Screenshot of part of your screen
-
+SUPER + Q = Terminal\
+SUPER + W = File Manager\
+SUPER + E = Web Browser\
+SUPER + R = GNOME Software\
+PRINT = Screenshot of screen\
+SUPER + PRINT = Screenshot of part of your screen\
+\
 SUPER + SPACE = Rofi
 
-SUPER + 1 = Quit
-SUPER + 2 = Toggle Floating
-SUPER + 0 = Exit to DM
-
-ALT + [Any number 1-0] = Switch workspace (ALT + 4 will take you to workspace 4 for example)
+SUPER + 1 = Quit\
+SUPER + 2 = Toggle Floating\
+SUPER + 0 = Exit to DM\
+\
+ALT + [Any number 1-0] = Switch workspace (ALT + 4 will take you to workspace 4 for example)\
 
 ## Configuration
 You'll need Hyprpaper, waybar, swaync and hyprcursor
