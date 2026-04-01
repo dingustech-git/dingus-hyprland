@@ -1,7 +1,6 @@
 # dingus-hyprland
 dingus's official Hyprland config (WIP)
-Please note that these configs are made for Linux in mind, I cannot help with porting to Windows or macOS, that's for you to do
-For wallpapers, place it in your home directory as wp.png
+Please note that these configs are made for Linux in mind, I cannot help with porting to Windows or macOS, that's for you to do\
 
 # Apps
 Firefox (Web Browser)\
@@ -24,6 +23,10 @@ Start Rofi with `rofi -show drun`, I'd reccomend adding a button or keybind to s
 # Hyprland itself
 Now we're at the actual Hyprland config
 This is pretty much the raw file that I've built myself, some things might not work :(
+## Wallpapers
+For wallpapers, place it in your home directory as `wp.png`\
+Things like Hyprlock, you'll need a blurred version of your wallpaper called `wpblur.png`, you can make this with Figma
+
 ## Keybinds
 SUPER + Q = Terminal\
 SUPER + W = File Manager\
@@ -41,6 +44,6 @@ SUPER + 0 = Exit to DM\
 ALT + [Any number 1-0] = Switch workspace (ALT + 4 will take you to workspace 4 for example)\
 
 ## Configuration
-You'll need Hyprpaper, waybar, swaync and hyprcursor
+You'll need Hyprpaper, waybar, swaync, hyprcursor and hyprlock
 Make sure you also have all the apps listed above
-copy hyprland.conf to ~/.config/hypr
+copy hyprland.conf to `~/.config/hypr`
