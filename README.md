@@ -47,3 +47,9 @@ ALT + [Any number 1-0] = Switch workspace (ALT + 4 will take you to workspace 4 
 You'll need Hyprpaper, waybar, swaync, hyprcursor and hyprlock\
 Make sure you also have all the apps listed above
 copy hyprland.conf to `~/.config/hypr`
+
+# Waybar and SwayNC
+You'll need Pywal for this
+Use the Waybar and SwayNC files from https://github.com/elifouts/Dotfiles
+If your Waybar config folder is in `/etc/xdg/waybar`, delete that directory with `sudo rm -rf /etc/xdg/waybar` and create a new directory called `waybar` in `~/.config`, this will allow you to edit via the GUI without `sudo`
+I wouldn't bother with getting blur to work, it didn't work for me
