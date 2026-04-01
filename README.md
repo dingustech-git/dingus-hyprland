@@ -1,6 +1,7 @@
 # dingus-hyprland
 dingus's official Hyprland config (WIP)
 Please note that these configs are made for Linux in mind, I cannot help with porting to Windows or macOS, that's for you to do
+For wallpapers, place it in your home directory 
 
 # Apps
 Firefox (Web Browser)\
@@ -28,6 +29,8 @@ SUPER + Q = Terminal
 SUPER + W = File Manager
 SUPER + E = Web Browser
 SUPER + R = GNOME Software
+PRINT = Screenshot of screen
+SUPER + PRINT = Screenshot of part of your screen
 
 SUPER + SPACE = Rofi
 
