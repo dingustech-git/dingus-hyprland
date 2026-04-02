@@ -3,7 +3,7 @@ dingus's official Hyprland config (WIP)
 Please note that these configs are made for Linux in mind, I cannot help with porting to Windows or macOS, that's for you to do\
 
 # Fonts
-JetBrainsMono Nerd Font (Used by Kitty, some other parts of this rice may use it too)
+JetBrainsMono Nerd Font (Used by Kitty, some other parts of this rice may use it too)\
 Google Sans Flex (Main font, used by Rofi, Hyprlock, Waybar and more)
 
 # Apps
