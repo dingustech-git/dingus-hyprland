@@ -1,4 +1,4 @@
-# dingus-hyprland
+# HyprLucid
 dingus's official Hyprland config (WIP)
 Please note that these configs are made for Linux in mind, I cannot help with porting to Windows or macOS, that's for you to do\
 
