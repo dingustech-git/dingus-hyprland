@@ -2,6 +2,10 @@
 dingus's official Hyprland config (WIP)
 Please note that these configs are made for Linux in mind, I cannot help with porting to Windows or macOS, that's for you to do\
 
+# Fonts
+JetBrainsMono Nerd Font (Used by Kitty, some other parts of this rice may use it too)
+Google Sans Flex (Main font, used by Rofi, Hyprlock, Waybar and more)
+
 # Apps
 Firefox (Web Browser)\
 Kitty (Terminal)\
@@ -53,3 +57,4 @@ You'll need Pywal for this
 Use the Waybar and SwayNC files from https://github.com/elifouts/Dotfiles
 If your Waybar config folder is in `/etc/xdg/waybar`, delete that directory with `sudo rm -rf /etc/xdg/waybar` and create a new directory called `waybar` in `~/.config`, this will allow you to edit via the GUI without `sudo`
 I wouldn't bother with getting blur to work, it didn't work for me
+You'll need to change the font to Google Sans Flex and remove some elements, use my screenshots as a reference
