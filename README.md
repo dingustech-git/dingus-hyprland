@@ -58,3 +58,6 @@ Use the Waybar and SwayNC files from https://github.com/elifouts/Dotfiles
 If your Waybar config folder is in `/etc/xdg/waybar`, delete that directory with `sudo rm -rf /etc/xdg/waybar` and create a new directory called `waybar` in `~/.config`, this will allow you to edit via the GUI without `sudo`
 I wouldn't bother with getting blur to work, it didn't work for me
 You'll need to change the font to Google Sans Flex and remove some elements, use my screenshots as a reference
+# Fastfetch
+Download both the files in the `fastfetch` folder and copy them to `~/.config/fastfetch`\
+You can change the image used by fastfetch by replacing `arch-linux.png` with another image named `arch-linux.png` 350x350 works best
