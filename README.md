@@ -20,18 +20,50 @@ Follow the instructions in the `firefoxdots` directory
 Go to your Kitty config folder (~/.config/kitty on both Linux and macOS)
 Copy `kitty.conf` to that folder, delete the original
 
+# Wofi
+Wofi is used as the app launcher in Hyprlucid
+## Setup
+Move `/Wofi` from this repo to `~/.config`
+
+<details>
+
+<summary>Rofi setup (Replaced)</summary>
+
 # Rofi
+
 Copy `config.rasi` to `~/.config.kitty`, you may need to create a `kitty` folder in `~/.config`
 Start Rofi with `rofi -show drun`, I'd reccomend adding a button or keybind to start it (It's enabled by default in my hyprland dotfiles)
+Note: as of the new update for Hyprlucid which adds support for SwitchWP and integrates pywall, Rofi has been replaced with Wofi, which can update according to your pywal color scheme
+
+</details>
 
 # Hyprland itself
 Now we're at the actual Hyprland config
 This is pretty much the raw file that I've built myself, some things might not work :(
-## Wallpapers
-For wallpapers, place it in your home directory as `wp.png`\
-Things like Hyprlock, you'll need a blurred version of your wallpaper called `wpblur.png`, you can make this with Figma
+Move `hypr` from this repo to `~/.config`
+You'll need Hyprpaper, waybar, swaync, hyprcursor, hyprlock and hyprshot\
+Make sure you also have all the apps listed above
+# SwitchWP
+SwitchWP is my custom CLI tool which allows the fast changing of wallpapers
+## Setup
+Move `Wallpaper` from this repo to your home directory
+cd into it with `cd ~/Wallpaper`
+Make SwitchWP executable with `chmod +x switchwp.sh`
+If you use fish, create a function so it's easier to start SwitchWP with
+`function switchwp
+    ~/Wallpaper/switchwp.sh
+end`
+## Adding images
+To add images, place them in `~/Wallpaper/Library/Normal` and name it a number. Example: `6.png`
+You'll need a blurred version, you can use Figma to create this
+Place your blurred wallpaper in `~/Wallpaper/Library/Blurred` with the same name as it's non-blurred counterpart
+## Switching wallpapers
+Type `switchwp` into the terminal (using the fish function you created earlier)
+It'll ask for a wallpaper number, enter the number for the wallpaper you want
+It'll change the wallpaper and the pywal theme
 
-## Keybinds
+
+# Keybinds
 SUPER + Q = Terminal\
 SUPER + W = File Manager\
 SUPER + E = Web Browser\
@@ -39,7 +71,7 @@ SUPER + R = GNOME Software\
 PRINT = Screenshot of screen\
 SUPER + PRINT = Screenshot of part of your screen\
 \
-SUPER + SPACE = Rofi
+SUPER + SPACE = Wofi
 
 SUPER + 1 = Quit\
 SUPER + 2 = Toggle Floating\
@@ -47,17 +79,24 @@ SUPER + 0 = Exit to DM\
 \
 ALT + [Any number 1-0] = Switch workspace (ALT + 4 will take you to workspace 4 for example)\
 
-## Configuration
-You'll need Hyprpaper, waybar, swaync, hyprcursor and hyprlock\
-Make sure you also have all the apps listed above
-copy hyprland.conf to `~/.config/hypr`
 
-# Waybar and SwayNC
-You'll need Pywal for this
-Use the Waybar and SwayNC files from https://github.com/elifouts/Dotfiles
-If your Waybar config folder is in `/etc/xdg/waybar`, delete that directory with `sudo rm -rf /etc/xdg/waybar` and create a new directory called `waybar` in `~/.config`, this will allow you to edit via the GUI without `sudo`
-I wouldn't bother with getting blur to work, it didn't work for me
-You'll need to change the font to Google Sans Flex and remove some elements, use my screenshots as a reference
+# Waybar
+Waybar is the status bar
+## Setup
+Move `/waybar` from this directory to `~/.config`
+### Dependancies
+``waybar
+hyprpicker
+pywal
+blueman
+bluez
+networkmanager
+swaync
+yay``
+# SwayNC
+SwayNC acts as both a notification daemon, a notification center and a quick settings menu
+## Setup
+Move `swaync` from this repo to `~/.config`
 # Fastfetch
 Download both the files in the `fastfetch` folder and copy them to `~/.config/fastfetch`\
 You can change the image used by fastfetch by replacing `arch-linux.png` with another image named `arch-linux.png` 350x350 works best
