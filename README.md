@@ -12,17 +12,35 @@ Shows things like the time, your current Workspace and has a few utilities
 Shows Notifications and Quick Settings
 ## Launcher
 A menu to launch apps that arent on your keybinds
-# Setup
-## Fonts
-JetBrainsMono Nerd Font (Used by Kitty, some other parts of this rice may use it too)\
-Google Sans Flex (Main font, used by Rofi, Hyprlock, Waybar and more)
 
-## Apps
+# Keybinds
+SUPER + Q = Terminal\
+SUPER + W = File Manager\
+SUPER + E = Web Browser\
+SUPER + R = GNOME Software\
+PRINT = Screenshot of screen\
+SUPER + PRINT = Screenshot of part of your screen\
+\
+SUPER + SPACE = Wofi
+
+SUPER + 1 = Quit\
+SUPER + 2 = Toggle Floating\
+SUPER + 0 = Exit to DM\
+\
+
+# Apps
 Firefox (Web Browser)\
 Kitty (Terminal)\
 Nautilus (File Manager)\
 GNOME Software (Flathub frontend)\
 Rofi (Launcher)\
+
+ALT + [Any number 1-0] = Switch workspace (ALT + 4 will take you to workspace 4 for example)\
+
+# Setup
+## Fonts
+JetBrainsMono Nerd Font (Used by Kitty, some other parts of this rice may use it too)\
+Google Sans Flex (Main font, used by Rofi, Hyprlock, Waybar and more)
 
 ## Firefox
 Follow the instructions in the `firefoxdots` directory
@@ -72,23 +90,6 @@ Place your blurred wallpaper in `~/Wallpaper/Library/Blurred` with the same name
 Type `switchwp` into the terminal (using the fish function you created earlier)
 It'll ask for a wallpaper number, enter the number for the wallpaper you want
 It'll change the wallpaper and the pywal theme
-
-
-## Keybinds
-SUPER + Q = Terminal\
-SUPER + W = File Manager\
-SUPER + E = Web Browser\
-SUPER + R = GNOME Software\
-PRINT = Screenshot of screen\
-SUPER + PRINT = Screenshot of part of your screen\
-\
-SUPER + SPACE = Wofi
-
-SUPER + 1 = Quit\
-SUPER + 2 = Toggle Floating\
-SUPER + 0 = Exit to DM\
-\
-ALT + [Any number 1-0] = Switch workspace (ALT + 4 will take you to workspace 4 for example)\
 
 
 ## Waybar
