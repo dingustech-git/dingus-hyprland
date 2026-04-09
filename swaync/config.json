@@ -39,7 +39,7 @@
         "title": {
             "text": "Dashboard",
             "clear-all-button": true,
-            "button-text": "󰆴"
+            "button-text": "Clear All"
         },
         "label": {
             "max-lines":1,
