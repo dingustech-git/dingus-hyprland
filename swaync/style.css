@@ -235,8 +235,8 @@
     font-weight: 500;
     color: @text;
     text-shadow: none;
-    background: alpha(#ff5555, 0.20);
-    border: 1px solid alpha(#ff5555, 0.28);
+    background: alpha(@color1, 0.75);
+    border: 1px solid alpha(@color1, 0.25);
     border-radius: 8px;
     padding: 1px 10px;
     margin-right: 14px;
