@@ -1,8 +1,16 @@
-# Hyprlucid 2.1
+# Hyprlucid 2.1.1
+Hyprlucid 2.1.1 brings only one change\
+\
+The text on the Title and the Clear All button in the Dashboard are now lowercase (This is how it was meant to be)\
+\
+Hyprlucid v2.1.1\
+11th April 2026
+
+## Hyprlucid 2.1
 Hyprlucid 2.1 is a big release
-## Updated Status Bar
+### Updated Status Bar
 The Status Bar (Waybar) has been given a slight refresh, now with a blurred background and rounder corners, it matches the rest of the Hyprlucid UI
-## Redesigned Notifications
+### Redesigned Notifications
 Notifications now look more in line with the rest of the UI\
 \
 Hyprlucid v2.1\
