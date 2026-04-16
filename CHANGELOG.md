@@ -1,4 +1,11 @@
-# Hyprlucid 2.1.1
+# Hyprlucid 2.2
+## Refreshed Status Bar (Waybar)
+It's layout has been changed, with the time and tray now on the right hand side.\
+On the left, there is now an app switcher, which shows all running apps allowing you to switch between them.\
+There is also a search icon on the left, which opens the Launcher.
+>Hyprlucid v2.2\
+>16th April 2026
+## Hyprlucid 2.1.1
 Hyprlucid 2.1.1 brings only one change\
 \
 The text on the Title and the Clear All button in the Dashboard are now lowercase (This is how it was meant to be)\
