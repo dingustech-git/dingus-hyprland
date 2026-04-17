@@ -1,5 +1,11 @@
-# Hyprlucid 2.2
-## Refreshed Status Bar (Waybar)
+# Hyprlucid 2.2.1
+## Fixed a small issue with the Launcher icon in the Status Bar
+The icon is now coloured according to your wallpaper\
+Padding has been fixed
+>Hyprlucid 2.2.1\
+>17th April 2026
+## Hyprlucid 2.2
+### Refreshed Status Bar (Waybar)
 It's layout has been changed, with the time and tray now on the right hand side.\
 On the left, there is now an app switcher, which shows all running apps allowing you to switch between them.\
 There is also a search icon on the left, which opens the Launcher.
