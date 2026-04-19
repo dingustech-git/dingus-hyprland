@@ -1,5 +1,16 @@
-# Hyprlucid 2.2.1
-## Fixed a small issue with the Launcher icon in the Status Bar
+# Hyprlucid 3
+Hyprlucid 3 brings an updated layout and changes accross the system
+## Taskbar
+The Status Bar is now the Taskbar\
+It's at the bottom, and elements have been moved around to create a more intuitive experience that is instantly familiar
+## Updated Animations
+The animations are now a bit smoother
+## Other changes...
+Things such as the Launcher have had small tweaks to it's colors
+>Hyprlucid 3.0\
+>19th April 2026
+## Hyprlucid 2.2.1
+### Fixed a small issue with the Launcher icon in the Status Bar
 The icon is now coloured according to your wallpaper\
 Padding has been fixed
 >Hyprlucid 2.2.1\
